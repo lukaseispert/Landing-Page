@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+   
+}
+
+.header {
+    background-color: #1f385b;
+    flex: 1;
+    display: flex
+}
+
+.box1 {
+    background-color: #1f385b;
+    flex: 1;
+}
+
+.box2 {
+    background-color: white;
+    height: 200px;
+}
+
+.box3 {
+    background-color: #e5e7eb;
+}
+
+.box4 {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1f385b;
+}
+
+.Signup {
+    background-color: #3882F3;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
