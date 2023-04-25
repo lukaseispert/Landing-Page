@@ -7,6 +7,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* overall layout in boxes*/
+
+
+/*navigation bar*/
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -16,23 +21,63 @@ body {
     padding-right: 200px;
 }
 
+.Header-Logo {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    color: #e5e7eb;
+}
+
+/* First Box "A Holiday you will never forget*/
 
 .box1 {
-    display: flex;
-    background-color: #1f2937;
-    padding-bottom: 150px;
-    gap: 200px;
-    justify-content: flex-start;
-    padding: 10px;
-    padding-right: 200px;
-    padding-left: 200px;
+    background-image:url(images/lucas-davies-M84BX9RmcZA-unsplash.jpg);
+    background-size: 2000px;
+    background-position-y: 40%;
+    padding: 200px;
 
 }
 
+.headline {
+    font-weight: 1000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.subtext {
+    color: #e5e7eb;
+    line-height-step: 1;
+
+}
+
+.Signup-Button {
+    background-color: #3882F6;
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    margin-top: 30px;
+}
+
+.surf-img {
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+/* Box 2 Destinations*/
+
 .box2 {
     background-color: white;
-    height: 200px;
-   
+    height: 200px;  
 }
 
 .box2-text {
@@ -41,6 +86,16 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
+.destinations {
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+/* box 3 with Quote*/
 
 .box3 {
     background-color: #e5e7eb;
@@ -52,18 +107,13 @@ body {
     font-style: italic;
 }
 
+/* box 4 with background image*/
+
 .box4 {
     background-image: url(images/tim-marshall-vn59e-3J2oo-unsplash.jpg);
     background-size: 2000px;
     background-position-y: 80%;
    
-}
-
-.footer {
-    background-color: #1f2937;
-    text-align: center;
-    color: #e5e7eb;
-    padding: 40px;
 }
 
 .Signup {
@@ -78,38 +128,6 @@ body {
 
 }
 
-ul {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    gap: 20px;
-    color: #e5e7eb;
-}
-
-.Header-Logo {
-    font-weight: 800;
-    font-size: 20px;
-}
-
-.headline {
-    font-weight: 1000;
-    font-size: 35px;
-    font-weight: bold;
-}
-.subtext {
-    color: #e5e7eb;
-
-}
-
-.Signup-Button {
-    background-color: #3882F6;
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
-    border: 0px;
-    color: white;
-}
-
 .Signup-Button2 {
     background-color: #3882F6;
     height: 50px;
@@ -120,12 +138,6 @@ ul {
     font-size: 17px;
 }
 
-.surf-img {
-    height: auto;
-    width: 500px;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
 .box4-heading {
     font-weight: bold;
 }
@@ -134,3 +146,24 @@ ul {
     display: flex;
     align-items: center;
 }
+
+/*footer */
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
