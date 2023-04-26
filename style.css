@@ -77,7 +77,7 @@ ul {
 .box2 {
     background-color: white;
     height: 200px; 
-    padding-bottom: 300px; 
+    padding-bottom: 180px; 
 }
 
 .box2-text {
@@ -92,6 +92,7 @@ ul {
     display: flex;
     justify-content: center;
     font-weight: bold;
+    gap: 40px;
 }
 
 .Img-Destinations {
@@ -120,9 +121,7 @@ li {
 .quote {
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 40px;
-    
-    
+    padding-top: 40px; 
 }
 
 .quote-author {
@@ -175,7 +174,17 @@ li {
     background-color: #1f2937;
     text-align: center;
     color: #e5e7eb;
-    padding: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imprint {
+    color:#e5e7eb
+
 }
 
 

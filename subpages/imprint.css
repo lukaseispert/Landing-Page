@@ -1,0 +1,86 @@
+body {
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* overall layout in boxes*/
+
+
+/*navigation bar*/
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.Header-Logo {
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    color: #e5e7eb;
+}
+
+
+
+/* box 1 with Quote*/
+
+.box1 {
+    background-image: url(../images/Imprint_mathyas-kurmann-jnHQsTfq2Og-unsplash.jpg);
+    background-position: bottom;
+    padding: 400px;
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;   
+}
+
+.quote {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px; 
+}
+
+.quote-author {
+    padding-bottom: 40px;
+}
+
+.credits {
+    display: block;
+}
+
+/*footer */
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imprint {
+    color:#e5e7eb
+
+}
+
