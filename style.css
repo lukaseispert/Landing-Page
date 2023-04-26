@@ -37,7 +37,7 @@ ul {
 /* First Box "A Holiday you will never forget*/
 
 .box1 {
-    background-image:url(images/lucas-davies-M84BX9RmcZA-unsplash.jpg);
+    background-image:url(images/Image_Box1_lucas-davies-M84BX9RmcZA-unsplash.jpg);
     background-size: 2000px;
     background-position-y: 40%;
     padding: 200px;
@@ -52,7 +52,6 @@ ul {
 
 .subtext {
     color: #e5e7eb;
-    line-height-step: 1;
 
 }
 
@@ -77,7 +76,8 @@ ul {
 
 .box2 {
     background-color: white;
-    height: 200px;  
+    height: 200px; 
+    padding-bottom: 300px; 
 }
 
 .box2-text {
@@ -92,25 +92,47 @@ ul {
     display: flex;
     justify-content: center;
     font-weight: bold;
+}
 
+.Img-Destinations {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+
+li {
+    text-align: center;
+    font-size: 18px;
 }
 
 /* box 3 with Quote*/
 
 .box3 {
     background-color: #e5e7eb;
-    text-align: center;
     color: #1f2937;
-    padding: 40px;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: lighter;
     font-style: italic;
+    text-align: center;
+    
+}
+
+.quote {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px;
+    
+    
+}
+
+.quote-author {
+    padding-bottom: 40px;
 }
 
 /* box 4 with background image*/
 
 .box4 {
-    background-image: url(images/tim-marshall-vn59e-3J2oo-unsplash.jpg);
+    background-image: url(images/Image_Box4_tim-marshall-vn59e-3J2oo-unsplash.jpg);
     background-size: 2000px;
     background-position-y: 80%;
    
